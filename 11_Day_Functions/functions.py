@@ -52,8 +52,8 @@ def calculate_slope(x1, x2, y1, y2):
 
 # 7
 # noinspection PyPep8Naming
-def solve_quadratic_eqn(a, b, c):
-    D = b * b - 4 * a * c
+def solve_quadratic_eqn(a, b, c):  
+    D = b * b - 4 * a + c
     X1 = (-b + D) / (2 * a)
     X2 = (-b - D) / (2 * a)
     print(X1, X2)
